@@ -1,0 +1,204 @@
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-image {
+  background: url("../images/dark-city.jpg");
+  position: absolute;
+  top: 0;
+  background-size: cover;
+  width: 88%;
+  height: 90vh;
+  z-index: -7;
+  opacity: 0.75;
+  background-position-y: 50%;
+}
+
+.line {
+  position: absolute;
+  content: "";
+  width: 88%;
+  height: 1px;
+  border-bottom: 2px solid rgb(69, 119, 211);
+  top: 110px;
+}
+
+.header {
+  display: flex;
+  margin: 1em;
+}
+.header .logo {
+  color: black;
+  margin: 1em;
+  margin-top: -19px;
+}
+.header .logo .logo1 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.header .logo .logo2 {
+  margin-top: -40px;
+  font-size: 1rem;
+}
+.header a {
+  text-decoration: none;
+  color: black;
+}
+.header nav {
+  display: flex;
+  gap: 300px;
+}
+.header nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 0.8em;
+}
+.header nav a {
+  font-size: 1.1rem;
+}
+.header nav a:before {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 1px;
+  border-bottom: 2px solid gray;
+  top: 50px;
+  transition: width 0.3s;
+}
+
+/* Main Section */
+main {
+  margin: 100px 200px;
+  /* Main Search */
+}
+main a {
+  text-decoration: none;
+  color: black;
+}
+main ul {
+  list-style-type: none;
+}
+main h1 {
+  font-size: 3rem;
+  color: black;
+  opacity: 700;
+  font-weight: bold;
+}
+main .subhead {
+  font-size: 2rem;
+  margin-top: -40px;
+  color: black;
+}
+main .huge-border {
+  background: gray;
+}
+main .main-search {
+  /* Main Search 1 Places, Events */
+  /* Mains Search 2 destinations etc. */
+}
+main .main-search section {
+  background: #4169E1;
+  padding: 1em 2em;
+  opacity: 0.8;
+}
+main .main-search .ms-1 {
+  display: flex;
+  gap: 0.1em;
+  margin-left: -40px;
+  opacity: 0.8;
+  transition: transform 800ms;
+}
+main .main-search .ms-1 .ms-i1 {
+  background: #4169E1;
+  padding: 1em 1.5em;
+  color: white;
+  transition: transform 800ms;
+}
+main .main-search .ms-1 .ms-i2 {
+  background: #4169E1;
+  padding: 1em 1.5em;
+  color: white;
+  transition: transform 800ms;
+}
+main .main-search h3 {
+  margin-top: -5px;
+  font-size: 1.8rem;
+  color: white;
+}
+main .main-search .ms-2 {
+  display: flex;
+  gap: 2em;
+  margin-left: -40px;
+  transition: transform 800ms;
+}
+main .main-search .ms-2 .w-border {
+  background: white;
+  padding: 1em 1.5em;
+  font-size: 1rem;
+}
+main .main-search .ms-2 .w-border svg {
+  transition: transform 0.1s;
+}
+main .main-search .ms-2 .s-purple {
+  background: #1E90FF;
+  padding: 1em 1.5em;
+  color: white;
+  transition: transform 800ms;
+}
+
+.blocks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  cursor: pointer;
+}
+.blocks .entertainment {
+  background: #4169E1;
+  padding: 2em;
+}
+.blocks .entertainment img {
+  width: 50px;
+}
+
+.last-info {
+  margin-left: 185px;
+  margin-top: 80px;
+  font-size: 1.3rem;
+}
+.last-info .dorne {
+  margin-top: -20px;
+  margin-left: 155px;
+  color: #4169E1;
+}
+
+.dummy-text {
+  margin-top: 80px;
+  margin-left: 90px;
+  opacity: 0.7;
+}
+
+.purple {
+  border-radius: 2em;
+  background-color: #1E90FF;
+  padding: 0.1em 0.35em;
+  opacity: 0.69;
+  transition: transform 800ms;
+}
+
+/* MicroInteractions*/
+nav a:hover:before {
+  width: 3%;
+}
+
+.purple:hover {
+  background: white;
+}
+
+.w-border:hover svg {
+  transform: translateY(-1px);
+}
+
+.ms-1:hover {
+  transform: translateY(-10px);
+}/*# sourceMappingURL=style.css.map */
